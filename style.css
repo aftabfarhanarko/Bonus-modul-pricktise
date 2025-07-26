@@ -1,55 +1,62 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 .work-sans-font {
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
 }
 
-header{
+header {
     max-width: 1150px;
     margin: 0 auto;
 }
-nav{
+
+nav {
     margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-ul{
+ul {
     display: flex;
     gap: 30px;
     align-items: center;
 }
-ul li a{
+
+ul li a {
     text-decoration: none;
     font-size: 1.2rem;
     color: rgb(96, 96, 96);
 }
-ul li{
+
+ul li {
     list-style: none;
 }
-.teitle-header{
+
+.teitle-header {
     font-size: 2.4rem;
     font-weight: 500;
     color: #4CAF4F;
 }
-.nav-btn{
+
+.nav-btn {
     background-color: #4CAF4F;
     color: white;
     font-size: 1.2rem;
     padding: 15px 20px;
     border: none;
+    font-weight: 600;
     border-radius: 8px;
 }
-.banner{
+
+.banner {
     max-width: 1150px;
     margin: 100px auto 0;
     background-image: url('/coolbackgrounds-particles-ether.png');
@@ -57,32 +64,37 @@ ul li{
     background-size: cover;
     border-radius: 8px;
 }
-.text-cointernar{
+
+.text-cointernar {
     max-width: 700px;
     margin: 0 auto;
     text-align: center;
     padding: 130px 0 130px 0;
 }
-.teitles-banner{
+
+.teitles-banner {
     font-size: 3.5rem;
     font-weight: 600;
     margin-bottom: 27px;
 }
-.clor{
+
+.clor {
     color: #4CAF4F;
 }
-.banners-pra{
+
+.banners-pra {
     font-size: 1.3rem;
     color: rgb(113, 113, 113);
     margin-bottom: 30px;
 }
 
-.comunaty{
+.comunaty {
     max-width: 1150px;
     margin: 100px auto 0;
-    
+
 }
-.comu-title{
+
+.comu-title {
     text-align: center;
     font-size: 2rem;
     max-width: 500px;
@@ -91,54 +103,61 @@ ul li{
     color: rgb(70, 70, 70);
     margin-bottom: 10px;
 }
-.sub-text{
+
+.sub-text {
     font-size: 1.2rem;
     text-align: center;
     color: rgb(83, 82, 82);
 }
 
-.growup{
+.growup {
     margin-top: 70px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 
 }
-.one{
+
+.one {
     text-align: center;
     padding: 40px 30px 40px 30px;
-      box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
-      border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
 
 }
-.dhriwej{
+
+.dhriwej {
     font-size: 4rem;
     color: #4CAF4F;
 }
-:root{
-    --all-color:rgb(110, 110, 110);
+
+:root {
+    --all-color: rgb(110, 110, 110);
 }
-.icons-teitle{
+
+.icons-teitle {
     font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 10px;
 }
-.sub-tei{
+
+.sub-tei {
     color: var(--all-color);
 }
 
 
 
 
-.producat{
+.producat {
     max-width: 1150px;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
 
 }
-.producatadsad{
-     text-align: center;
+
+.producatadsad {
+    text-align: center;
     font-size: 2rem;
     max-width: 500px;
     margin: 0 auto;
@@ -146,59 +165,70 @@ ul li{
     color: rgb(70, 70, 70);
     margin-bottom: 10px;
 }
-.subes{
+
+.subes {
     font-size: 1.2rem;
     text-align: center;
     color: var(--all-color);
     max-width: 900px;
     margin: 0 auto;
 }
-.ourpoint{
+
+.ourpoint {
     background-image: url('/coolbackgrounds-particles-stellar.png');
     margin-top: 50px;
     max-width: 1150px;
-   height: 300px;
-   background-color:#F5F7FA;
-   border-radius: 9px;
+    height: 300px;
+    background-color: #F5F7FA;
+    border-radius: 9px;
 }
+
 @keyframes my-boll {
-    0%{
+    0% {
         top: 0px;
         left: 0px;
         background-color: #4CAF4F;
     }
-    25%{
+
+    25% {
         top: 220px;
         left: 287px;
         background-color: brown;
     }
-    50%{
+
+    50% {
         top: 0px;
         left: 575px;
         background-color: #4CAF4F;
     }
-    75%{
+
+    75% {
         top: 220px;
         left: 862.5px;
         background-color: rgb(214, 31, 113);
     }
-    100%{
+
+    100% {
         top: 0px;
         left: 1070px;
         background-color: #4CAF4F;
     }
-    
+
 }
-.ball{
+
+.ball {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-  
     position: relative;
-    animation: my-boll 3s ease-in-out 1s infinite alternate ;
+    animation: my-boll 3s ease-in-out 1s infinite alternate;
 }
 
-.ourlive{
+
+
+
+
+.ourlive {
     max-width: 1150px;
     margin: 0 auto;
     display: grid;
@@ -207,97 +237,111 @@ ul li{
     gap: 100px;
     background-color: #F8FCFA;
     border-radius: 9px;
- 
 }
-.sid-teitle{
+
+.sid-teitle {
     font-size: 2rem;
     font-weight: 600;
     color: rgb(70, 70, 70);
     margin-bottom: 10px;
 }
-.sideone{
+
+.sideone {
     margin-left: 30px;
     padding: 70px 50px;
 }
-.dicp{
+
+.dicp {
     font-size: 1.1rem;
     color: var(--all-color);
 }
-.sidtoe{
+
+.sidtoe {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.cone{
+
+.cone {
     color: #4CAF4F;
     font-size: 3rem;
 }
-.fhhsko{
+
+.fhhsko {
     color: black;
     font-size: 1.5rem;
 }
 
 
 
-.stope{
+.stope {
     max-width: 1150px;
-    margin: 100px auto; 
+    margin: 100px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.head-texst{
-     font-size: 2rem;
+
+.head-texst {
+    font-size: 2rem;
     font-weight: 600;
     color: rgb(70, 70, 70);
     margin-bottom: 20px;
     max-width: 500px;
 }
-.sodfp{
+
+.sodfp {
     font-size: 1.2rem;
     color: var(--all-color);
     max-width: 700px;
 }
-.textes-coint{
-   padding: 0 0 0 70px ;
+
+.textes-coint {
+    padding: 0 0 0 70px;
 }
-.img-podgh{
-   padding: 0 40px 0 0;
+
+.img-podgh {
+    padding: 0 40px 0 0;
 }
 
 
-footer{
+footer {
     width: 100%;
-   background-color: #182937;
-   color: white;
+    background-color: #182937;
+    color: white;
 }
 
-.all-contast{
+.all-contast {
     max-width: 1150px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     padding: 80px 0;
 }
-.fotim{
+
+.fotim {
     width: 160px;
 }
-.ghuwpq{
+
+.ghuwpq {
     font-size: 1rem;
     max-width: 350px;
     margin: 18px 0;
 }
-.footericones{
+
+.footericones {
     font-size: 23px;
     margin-left: 15px;
 }
-.secondes{
+
+.secondes {
     display: flex;
     gap: 40px;
 }
+
 .under,
 .lists,
-.athur{
+.athur {
     text-decoration: none;
     display: block;
     font-size: 1rem;
@@ -305,12 +349,13 @@ footer{
     color: white;
     margin-top: 22px;
 }
-.ttl{
+
+.ttl {
     font-size: 1.4rem;
     font-weight: 500;
 }
 
-input[type="email"]{
+input[type="email"] {
     margin-top: 30px;
     padding: 13px 25px 13px 12px;
     font-size: 19px;
@@ -318,12 +363,120 @@ input[type="email"]{
     border-radius: 8px;
     background-color: #374151;
 }
-.box{
+
+.box {
     position: relative;
 }
-.position{
+
+.position {
     position: absolute;
     top: 69px;
     right: 15px;
     font-size: 20px;
+}
+
+@media screen and (max-width:576px) {
+    nav {
+        padding: 0 20px 0;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .Home{
+        margin-left: 18px;
+    }
+    ul{
+        padding: 0 20px 0;
+        gap: 20px;
+    }
+    ul li a {
+        font-size: 1rem;
+
+    }
+
+    .max-js{
+        display: none;
+    }
+
+    .teitles-banner {
+        font-size: 2.4rem;
+        padding: 2px;
+    }
+
+    .banners-pra {
+        font-size: 1.1rem;
+    }
+
+    .growup {
+        margin-top: 70px;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 20px 0 20px;
+        gap: 30px;
+
+    }
+
+    .producatadsad {
+        font-size: 2rem;
+        max-width: 400px;
+        padding: 0 20px 0;
+    }
+
+    .subes {
+        font-size: 1.1rem;
+        padding: 5px 15px 0;
+    }
+
+    .ball {
+        display: none;
+    }
+
+    .ourpoint {
+        display: none;
+    }
+
+    .ourlive {
+        grid-template-columns: 1fr;
+
+        gap: 0px;
+    }
+
+    .sideone {
+        margin-left: 0px;
+        /* padding: 70px 50px; */
+    }
+
+
+    .sidtoe {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 0 20px 0;
+    }
+    .stope {
+   flex-direction: column-reverse;
+}
+.head-texst {
+    font-size: 2rem;
+}
+.textes-coint {
+    padding: 20px;
+    text-align: center;
+}
+.all-contast {
+   flex-direction: column;
+    padding: 80px 40px;
+}
+.secondes {
+   flex-direction: column;
+    gap: 50px;
+    margin-top: 30px;
+}
+.footericones {
+    font-size: 23px;
+    margin-left: 5px;
+}
+.position {
+    position: absolute;
+    right: 75px;
+}
 }
